@@ -1,6 +1,7 @@
 package app
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"net"
@@ -120,7 +121,7 @@ func produce(msg string) <-chan string {
 	out := make(chan string)
 	go func() {
 		defer close(out)
-		out <- msg
+		out <- string([]byte(msg)[0:bytes.IndexByte([]byte(msg), 0)])
 	}()
 	return out
 }

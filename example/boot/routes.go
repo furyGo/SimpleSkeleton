@@ -1,6 +1,6 @@
 package boot
 
-import "SimpleSkeleton/app"
+import "github.com/furyGo/SimpleSkeleton/app"
 
 func SetRoutes(container app.Container) {
 

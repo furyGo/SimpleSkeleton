@@ -1,9 +1,9 @@
 package main
 
 import (
-	"SimpleSkeleton/app"
-	"SimpleSkeleton/example/boot"
 	"flag"
+	"github.com/furyGo/SimpleSkeleton/app"
+	"github.com/furyGo/SimpleSkeleton/example/boot"
 )
 
 var initConfigPath = flag.String(

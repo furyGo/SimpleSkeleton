@@ -1,9 +1,9 @@
 package boot
 
 import (
-	"SimpleSkeleton/app"
 	"context"
 	"fmt"
+	"github.com/furyGo/SimpleSkeleton/app"
 	"log"
 )
 
