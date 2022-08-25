@@ -1,4 +1,4 @@
-module SimpleSkeleton
+module github.com/furyGo/SimpleSkeleton
 
 go 1.17
 
